@@ -1,0 +1,31 @@
+select ano, nome,carga from cursos
+order by ano, nome;
+
+Select * from cursos
+where ano= '2016'
+order by nome;
+
+Select nome, carga from cursos
+where ano= '2016'
+order by nome;
+
+select nome, descricao, ano from cursos
+where ano <='2015'
+order by ano, nome;
+
+select nome, descricao, ano from cursos
+where ano between 2014 and 2016
+order by ano desc, nome;
+
+select nome, ano from cursos
+where ano between '2015'and'2016'
+order by nome, ano asc;
+
+use mvtecnologies;
+
+show tables;
+
+select * from Clientes;
+
+select * from cursos
+where nome like '%P%';
