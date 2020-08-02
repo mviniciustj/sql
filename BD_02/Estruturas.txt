@@ -1,0 +1,6 @@
+Estruturas: 
+
+Select * from //Com Variações
+Alter Table //Create C/S First --
+Update // Atualização da tablema
+
